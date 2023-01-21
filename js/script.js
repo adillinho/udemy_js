@@ -38,7 +38,7 @@ const b = prompt("На сколько оцените его?", "");
 const c = prompt("Один из последних просмотренных фильмов?", "");
 const d = prompt("На сколько оцените его?", "");
 
-personalMovieDB.movies[a] = c;
-personalMovieDB.movies[b] = d;
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
